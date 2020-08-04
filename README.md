@@ -21,15 +21,15 @@ Extensive experimental results on four benchmark datasets validate the efficacy 
 
 ### Requirements:
 python 3
-[pytorch 1.0.1]()
+[pytorch 1.0.1](https://pytorch.org/)
 [coviar](https://github.com/chaoyuaw/pytorch-coviar)
 ### Dataset
 Something-Something v2: video is split into frames by xx and change the path in `run_smth_i3d.sh`.
 ### Mpeg video generation
-When use [coviar](https://github.com/chaoyuaw/pytorch-coviar) to extract motion vector, change original video to mpeg format: run bash reencode_smth_smth.sh.
+When use [coviar](https://github.com/chaoyuaw/pytorch-coviar) to extract motion vector, change original video to mpeg format: run `bash reencode_smth_smth.sh`.
 
 ### Attacking
 run bash `run_smth_i3d.sh` or `bash run_smth_tsn.sh`
 
 ### License
-This project is licensed under the [LICENSE]() found in the LICENSE file in the root directory.
+This project is licensed under the [LICENSE](https://github.com/xiaofanustc/ME-Sampler/blob/master/LICENSE) found in the LICENSE file in the root directory.
