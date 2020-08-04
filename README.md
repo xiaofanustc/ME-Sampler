@@ -20,9 +20,9 @@ By using the sparked prior in gradient estimation, we can successfully attack a 
 Extensive experimental results on four benchmark datasets validate the efficacy of our proposed method.
 
 ### Requirements:
-python 3
-[pytorch 1.0.1](https://pytorch.org/)
-[coviar](https://github.com/chaoyuaw/pytorch-coviar)
+- python 3
+- [pytorch 1.0.1](https://pytorch.org/)
+- [coviar](https://github.com/chaoyuaw/pytorch-coviar)
 ### Dataset
 Something-Something v2: video is split into frames by `video2frames.py` and change the path in `run_smth_i3d.sh`.
 ### Mpeg video generation
