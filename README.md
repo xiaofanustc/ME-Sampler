@@ -36,5 +36,6 @@ run `bash reencode_smth_smth.sh`.
 ### Attacking
 run `bash run_smth_i3d.sh` or `bash run_smth_tsn.sh`
 
+**Reminder: when attacking, we impose noise after normalize pixels to 0-1 but before mean and std normalization, thus we need to split previous operations of transformation.**
 ### License
 This project is licensed under the [LICENSE](https://github.com/xiaofanustc/ME-Sampler/blob/master/LICENSE) found in the LICENSE file in the root directory.
