@@ -1,4 +1,4 @@
-# ME-Sampler
+# Motion-Excited Sampler: Video Adversarial Attack with Sparked Prior
 This repository contains code for the paper:
 #### Motion-Excited Sampler: Video Adversarial Attack with Sparked Prior
 
