@@ -25,6 +25,9 @@ Extensive experimental results on four benchmark datasets validate the efficacy 
 - [coviar](https://github.com/chaoyuaw/pytorch-coviar)
 ### Dataset
 Something-Something v2: video is split into frames by `video2frames.py` and change the path in `run_smth_i3d.sh`.
+### Attacked models
+We use existing I3D and TSN2D models from [gluoncv](https://gluon-cv.mxnet.io/model_zoo/action_recognition.html), download [[here]()]
+
 ### Mpeg video generation
 When use [coviar](https://github.com/chaoyuaw/pytorch-coviar) to extract motion vector, first convert original video to mpeg format: run `bash reencode_smth_smth.sh`.
 
