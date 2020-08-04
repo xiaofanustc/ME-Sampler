@@ -24,7 +24,7 @@ python 3
 [pytorch 1.0.1](https://pytorch.org/)
 [coviar](https://github.com/chaoyuaw/pytorch-coviar)
 ### Dataset
-Something-Something v2: video is split into frames by xx and change the path in `run_smth_i3d.sh`.
+Something-Something v2: video is split into frames by `video2frames.py` and change the path in `run_smth_i3d.sh`.
 ### Mpeg video generation
 When use [coviar](https://github.com/chaoyuaw/pytorch-coviar) to extract motion vector, change original video to mpeg format: run `bash reencode_smth_smth.sh`.
 
