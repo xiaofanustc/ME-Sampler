@@ -18,7 +18,8 @@ from blackbox_attack import _perturbation_image
 
 from gluoncv.model_zoo import get_model
 from gluoncv.data.transforms import video
-from gluoncv.data import SomethingSomethingV2
+#from gluoncv.data import SomethingSomethingV2
+from dataloader import SomethingSomethingV2_revise
 from gluoncv.utils import split_and_load
 from gluoncv.data.dataloader import tsn_mp_batchify_fn
 
@@ -98,7 +99,7 @@ def main():
     global transform_post
     
     transform_post = video.VideoGroupValTransform(size=args.input_size, mean = [0,0,0], std=[1,1,1])
-    val_dataset = SomethingSomethingV2(setting=args.val_list, 
+    val_dataset = SomethingSomethingV2_revise(setting=args.val_list, 
                                        root=args.data_dir, 
                                        train=False,
                                        new_width=args.new_width, 
