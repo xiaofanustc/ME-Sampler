@@ -23,8 +23,8 @@ Extensive experimental results on four benchmark datasets validate the efficacy 
 - python 3.6
 - [pytorch 1.0.1](https://pytorch.org/)
 - [coviar](https://github.com/chaoyuaw/pytorch-coviar)
-- [mxnet-gpu 1.5.0](https://mxnet.apache.org/versions/1.6/) 
-- [gluoncv 0.6.0](https://gluon-cv.mxnet.io/contents.html)
+- [mxnet-gpu 1.5.0](https://mxnet.apache.org/versions/1.6/): install it by `pip install mxnet-cu100==1.5.0` for cuda 10.0
+- [gluoncv 0.6.0](https://gluon-cv.mxnet.io/contents.html): install it by `pip install gluoncv==0.6.0`
 ### Dataset
 Something-Something v2: video is split into frames by `video2frames.py` and change the path in `run_smth_i3d.sh`.
 ### Attacked models
